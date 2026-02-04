@@ -1,0 +1,99 @@
+{
+  "assets": [
+    {
+      "type": "metal",
+      "name": "Silver",
+      "symbol": "SI=F",
+      "metal_type": "silver",
+      "targets": [75.0, 83.39, 120.0],
+      "threshold_percent": 0.05,
+      "allow_repeat_alerts": false
+    },
+    {
+      "type": "metal",
+      "name": "Gold",
+      "symbol": "GC=F",
+      "metal_type": "gold",
+      "targets": [4700.0, 4830.0],
+      "threshold_percent": 0.05,
+      "allow_repeat_alerts": false
+    },
+    {
+      "type": "stock",
+      "name": "Google",
+      "symbol": "GOOGL",
+      "targets": [320.0, 350.0],
+      "threshold_percent": 0.05,
+      "allow_repeat_alerts": false
+    },
+    {
+      "type": "stock",
+      "name": "Palantir",
+      "symbol": "PLTR",
+      "targets": [207.0, 219.0],
+      "threshold_percent": 0.05,
+      "allow_repeat_alerts": false
+    },
+    {
+      "type": "stock",
+      "name": "Meta",
+      "symbol": "META",
+      "targets": [640.0, 710.0, 730.0],
+      "threshold_percent": 0.05,
+      "allow_repeat_alerts": false
+    },
+    {
+      "type": "stock",
+      "name": "Tesla",
+      "symbol": "TSLA",
+      "targets": [407.0, 425.0],
+      "threshold_percent": 0.05,
+      "allow_repeat_alerts": false
+    },
+    {
+      "type": "crypto",
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "targets": [80000.0, 82000.0],
+      "threshold_percent": 0.03,
+      "allow_repeat_alerts": false
+    },
+    {
+      "type": "crypto",
+      "name": "Solana",
+      "symbol": "SOL",
+      "targets": [100.0, 110.0, 120.0],
+      "threshold_percent": 0.03,
+      "allow_repeat_alerts": false
+    },
+    {
+      "type": "crypto",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "targets": [2500.0, 2800.0, 3000.0],
+      "threshold_percent": 0.03,
+      "allow_repeat_alerts": false
+    },
+    {
+      "type": "crypto",
+      "name": "XRP",
+      "symbol": "XRP",
+      "targets": [1.7, 2.0],
+      "threshold_percent": 0.05,
+      "allow_repeat_alerts": false
+    }
+  ],
+  "polling_intervals_sec": {
+    "crypto": 30,
+    "stock": 60,
+    "metal": 60
+  },
+  "notification_channels": [
+    {
+      "type": "telegram",
+      "bot_token": "8286816385:AAErp9Hj5HKHdcRmtlH4ZFP4Q-2TZdXW8wg",
+      "chat_id": "870582184"
+    }
+  ],
+  "alert_cooldown_sec": 300
+}
